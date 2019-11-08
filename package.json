@@ -1,0 +1,18 @@
+{
+  "name": "gcalendar-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "excel4node": "^1.7.2",
+    "googleapis": "^39.2.0",
+    "rimraf": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "clean:output": "rimraf ./output/*"
+  },
+  "author": "",
+  "license": "ISC"
+}
