@@ -15,5 +15,12 @@ module.exports = {
         var timeMax = new Date();
         timeMax.setHours(23, 59, 59, 59);
         return timeMax;
+    },
+    /**
+     * Checks whether the string is ISO date format or not
+     * @param {string} dateString
+     */
+    validDateString: function (dateString) {
+        return new Date(dateString) !== "Invalid Date" && !isNaN(new Date(dateString));
     }
 }

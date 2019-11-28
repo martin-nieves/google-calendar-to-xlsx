@@ -11,7 +11,8 @@
   "devDependencies": {},
   "scripts": {
     "start": "node index.js",
-    "clean:output": "rimraf ./output/*"
+    "clean:output": "rimraf ./output/*",
+    "clean:start": "npm run clean:output && npm run start"
   },
   "author": "",
   "license": "ISC"
